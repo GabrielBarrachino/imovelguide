@@ -188,16 +188,15 @@ nav ul li a:hover{
         max-width: 7rem;
     }
     .menuMobile aside{
-        height: 65%;
+        height: 70%;
+    }
+    .btnMobile i{
+        margin-top: -.4rem;
     }
 }
 
 @media (max-width: 375px){
     .menuMobile aside{
         height: 90%;
-    }
-    .btnMobile i{
-        font-size: 2.7rem;
-        margin-top: -.4rem;
     }
 }
