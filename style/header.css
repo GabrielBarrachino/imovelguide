@@ -69,7 +69,7 @@ nav ul li a:hover{
     top: 0;
     right: 0;
     width: 60%;
-    height: 55%;
+    height: 80%;
     z-index: 200;
     opacity: 0;
     pointer-events: none;
@@ -81,7 +81,7 @@ nav ul li a:hover{
     top: 0;
     right: 0;
     width: 60%;
-    height: 55%;
+    height: 80%;
     padding: 1.5rem;
     background-color: var(--blueColor);
     transform: translateX(100%);
@@ -172,14 +172,12 @@ nav ul li a:hover{
 @media (max-width: 840px){
     .menuMobile aside{
         width: 60%;
-        height: 50%;
     }
 }
 
 @media (max-width: 570px){
     .menuMobile aside{
         width: 70%;
-        height: 70%;
     }
     .btnMobile i{
         margin-top: -.4rem;
@@ -189,14 +187,5 @@ nav ul li a:hover{
 @media (max-width: 400px){
     .contentLeft .logo{
         max-width: 7rem;
-    }
-    .menuMobile aside{
-        height: 70%;
-    }
-}
-
-@media (max-width: 375px){
-    .menuMobile aside{
-        height: 90%;
     }
 }
