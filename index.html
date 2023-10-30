@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header.css">
+
+    <title>Projeto Imóvel Guide</title>
+</head>
+<body>
+
+    <header class="headerContainer">
+        <div class="headerContent container flex">
+            <div class="contentLeft flex">
+                <div class="logo">
+                    <img src="./assets/logo.webp" alt="">
+                </div>
+    
+                <nav class="navLeft">
+                    <ul class="flex">
+                        <li><a href="#" target="_blank">Condomínios</a></li>
+                        <li><a href="#" target="_blank">Fórum</a></li>
+                        <li><a href="#" target="_blank">Guia</a></li>
+                        <li><a href="#" target="_blank">Artigos</a></li>
+                        <li><a href="#" target="_blank">Ferramentas</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="navRight">
+                <ul class="flex">
+                    <li><a href="#" target="_blank">Cotar Imóvel</a></li>
+                    <li><a href="#" target="_blank">Planos</a></li>
+                    <li><a href="#" target="_blank">Entrar</a></li>
+                    <button class="btnCadastro">Cadastre-se</button>
+                </ul>
+            </nav>
+            <button class="btnMobile" id="openMenu">
+                <i class='bx bx-menu'></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="menuMobile">
+        <div class="overlay" id="overlay"></div>
+        <aside>
+            <div class="headerContent container flexMobile">
+                <div class="contentLeft flexMobile">
+        
+                    <nav class="navLeft">
+                        <ul class="flexMobile">
+                            <li><a href="#" target="_blank">Condomínios</a></li>
+                            <li><a href="#" target="_blank">Fórum</a></li>
+                            <li><a href="#" target="_blank">Guia</a></li>
+                            <li><a href="#" target="_blank">Artigos</a></li>
+                            <li><a href="#" target="_blank">Ferramentas</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <nav class="navRight">
+                    <ul class="flexMobile">
+                        <li><a href="#" target="_blank">Cotar Imóvel</a></li>
+                        <li><a href="#" target="_blank">Planos</a></li>
+                        <li><a href="#" target="_blank">Entrar</a></li>
+                        <button class="btnCadastro">Cadastre-se</button>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
