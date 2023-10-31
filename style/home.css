@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    margin-top: 4rem;
+    margin: 4rem 0 0 0;
 }
 
 .contentHome .cotainerBox{
@@ -347,6 +347,43 @@
     }
 }
 
+/* Footer */
+.footerContainer{
+    background-color: var(--blueColor);
+    height: 5rem;
+    padding: .5rem 0;
+    margin-top: 4rem;
+}
+
+.footerContainer .footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.footerContainer .footerContent .leftFooter nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer .contentCopy{
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer .contentCopy .logo img{
+    width: 100%;
+    max-width: 6.8rem;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer .contentCopy p{
+    color: #fff;
+    margin-right: 1rem;
+}
 
 
 /* Responsivo Home */
@@ -354,7 +391,6 @@
     .contentHome{
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
-        margin-bottom: 2rem;
     }
 
     .modal .modalContent{
@@ -444,6 +480,14 @@
     .contentHome{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footerContainer .footerContent{
+        justify-content: center;
+    }
+
+    .footerContainer .footerContent .leftFooter{
+        display: none;
+    }
 }
 
 @media (max-width: 570px){
@@ -456,5 +500,9 @@
     .modal .modalContent .close{
         top: -.7rem;
         right: -.6rem;
+    }
+
+    .footerContainer .contentCopy p{
+        font-size: .8rem;
     }
 }
