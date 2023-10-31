@@ -446,7 +446,7 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 570px){
     .modal .modalContent{
         max-width: 25rem;
         height: 25rem;
