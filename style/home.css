@@ -448,19 +448,6 @@
 
 @media (max-width: 570px){
     .modal .modalContent{
-        max-width: 25rem;
-        height: 25rem;
-        padding: 1.5rem;
-    }
-
-    .modal .modalContent .close{
-        top: -.5rem;
-        right: -.5rem;
-    }
-}
-
-@media (max-width: 400px){
-    .modal .modalContent{
         max-width: 22rem;
         height: 22rem;
         padding: 1rem;
